@@ -50,7 +50,7 @@
 var app=angular.module('myModule',[])
 
 app.controller('myController',function($scope,$http){
-    $scope.carts[]
+    $scope.carts=[]
  $http({
      method:'GET',
      url:'/model/database.json'
@@ -73,13 +73,13 @@ $scope.addtocart=function(product){
 $scope.total=0;
 $scope.setTotals=function(cart){
     if(cart){
-        $scope.total=$scope.total+$scope.p_price
+        $scope.total=$scope.total+cart.p_price
     }
 }
-$scope.remove_cart=function(cart){
+$scope.removecart=function(cart){
     if(cart){
         $scope.carts.splice($scope.carts.indexOf(cart),1)
-        $scope.total=$scope.total-$scope.p_price
+        $scope.total=$scope.total-cart.p_price
 
     }
 }
