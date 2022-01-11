@@ -1,0 +1,31 @@
+[
+    {
+        "p_id":"1",
+        "p_name":"Ajun",
+        "p_image":"Male",
+    "p_price":5000
+    
+
+    },
+    {
+        "p_id":"2",
+        "p_name":"A",
+        "p_image":"",
+    "p_price":5000
+
+    },
+
+    {
+        "p_id":"1",
+        "p_name":"Ajun",
+        "p_image":"",
+    "p_price":5000
+
+    }
+    
+    
+
+    
+
+    
+]
